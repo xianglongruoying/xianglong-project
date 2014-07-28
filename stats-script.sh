@@ -1,5 +1,5 @@
 for datafile in *.txt
 do
-    bash goostats $datafile | head -1 >> stats-$datafile
+    bash goostats $datafile | head -1 >> output.txt
 
 done
